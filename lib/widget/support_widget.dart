@@ -10,7 +10,7 @@ class AppWidget{
         fontWeight: FontWeight.bold);
   }
 
-  //Im chu may xam
+  //In chu may xam
   static TextStyle lightTextFeildStyle() {
     return TextStyle(
         color: Colors.black54,

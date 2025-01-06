@@ -1,12 +1,18 @@
+import 'package:app/controller/home_controller.dart';
+import 'package:app/firebase_options.dart';
 import 'package:app/home.dart';
-import 'package:app/page/onboarding.dart';
-import 'package:app/route/app_page.dart';
-import 'package:app/route/app_route.dart';
-import 'package:app/theme/app_theme.dart';
+import 'package:app/view/home/home_page.dart';
+import 'package:app/view/product/add_product_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+ await Firebase.initializeApp(options: firebaseOptions);
+
+  //Registering controller
+  Get.put(HomeController());
   runApp(const MyApp());
 }
 
@@ -23,14 +29,14 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       themeMode: ThemeMode.light
     );*/
-    return  MaterialApp(
+    return  GetMaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home(),
+      home: AddProductPage(),
     );
   }
 }
