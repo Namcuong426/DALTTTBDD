@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # app_client
+=======
+# app
+>>>>>>> 50e286e37dce82ef82dce18832c7f8d5cfcef5dd
 
 A new Flutter project.
 

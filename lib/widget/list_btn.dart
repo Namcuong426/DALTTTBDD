@@ -1,7 +1,10 @@
 import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/material.dart';
 
+<<<<<<< HEAD
 //Chua them const
+=======
+>>>>>>> 50e286e37dce82ef82dce18832c7f8d5cfcef5dd
 String? selecteValue;
 
 class ListBtn extends StatelessWidget {

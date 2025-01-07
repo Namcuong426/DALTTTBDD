@@ -24,6 +24,7 @@ class AppWidget{
         color: Colors.black,
         fontSize: 20.0,
         fontWeight: FontWeight.bold);
+<<<<<<< HEAD
   }
 
   static TextStyle logoTextFeildStyle(){
@@ -39,3 +40,8 @@ class AppWidget{
         fontWeight: FontWeight.bold);
   }
 }
+=======
+
+  }
+  }
+>>>>>>> 50e286e37dce82ef82dce18832c7f8d5cfcef5dd

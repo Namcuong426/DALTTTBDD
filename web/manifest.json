@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "app_client",
     "short_name": "app_client",
+=======
+    "name": "app",
+    "short_name": "app",
+>>>>>>> 50e286e37dce82ef82dce18832c7f8d5cfcef5dd
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
